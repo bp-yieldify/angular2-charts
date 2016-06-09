@@ -4,6 +4,9 @@ import { HTTP_PROVIDERS} from '@angular/http';
 
 import { AboutComponent } from './+about/index';
 import { HomeComponent } from './+home/index';
+import { ChartComponent } from './+chart/index';
+import { CanvasComponent } from './+canvas/index';
+import { GoogleChartComponent } from './+googlechart/index';
 import { NameListService, NavbarComponent, ToolbarComponent } from './shared/index';
 
 /**
@@ -25,6 +28,18 @@ import { NameListService, NavbarComponent, ToolbarComponent } from './shared/ind
   {
     path: '/about',
     component: AboutComponent
+  },
+  {
+    path: '/chart',
+    component: ChartComponent
+  },
+  {
+    path: '/canvas',
+    component: CanvasComponent
+  },
+  {
+    path: '/googlechart',
+    component: GoogleChartComponent
   }
 ])
 export class AppComponent {}

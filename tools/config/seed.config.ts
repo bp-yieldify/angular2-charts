@@ -251,7 +251,8 @@ export class SeedConfig {
     { src: 'reflect-metadata/Reflect.js', inject: 'shims' },
     { src: 'core-js/client/shim.min.js', inject: 'shims' },
     { src: 'systemjs/dist/system.src.js', inject: 'shims', env: ENVIRONMENTS.DEVELOPMENT },
-    { src: 'rxjs/bundles/Rx.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT }
+    { src: 'rxjs/bundles/Rx.js', inject: 'libs', env: ENVIRONMENTS.DEVELOPMENT },
+    { src: 'chart.js/dist/Chart.bundle.min.js', inject: 'libs' }
   ];
 
   /**

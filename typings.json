@@ -13,6 +13,7 @@
     "core-js": "registry:dt/core-js#0.0.0+20160317120654",
     "express": "github:DefinitelyTyped/DefinitelyTyped/express/express.d.ts#5c3e47967affa3c4128a3875d1664ba206ae1b0f",
     "glob": "github:DefinitelyTyped/DefinitelyTyped/glob/glob.d.ts#5c3e47967affa3c4128a3875d1664ba206ae1b0f",
+    "google.visualization": "github:DefinitelyTyped/DefinitelyTyped/google.visualization/google.visualization.d.ts#448bcc6e964f0f1c1ac87a6fb3ee0a4f186ec3b9",
     "gulp": "github:DefinitelyTyped/DefinitelyTyped/gulp/gulp.d.ts#5c3e47967affa3c4128a3875d1664ba206ae1b0f",
     "gulp-load-plugins": "github:DefinitelyTyped/DefinitelyTyped/gulp-load-plugins/gulp-load-plugins.d.ts#e081148d88b857d66509e3b46edbd08b3f75f96a",
     "gulp-protractor": "registry:dt/gulp-protractor#1.0.0+20160316155526",
